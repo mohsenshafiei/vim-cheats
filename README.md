@@ -1,0 +1,52 @@
+### vim-cheats
+
+Daily Vim Commands
+
+- Vim modes: `insert` and `normal`
+- Use `esc` for normal mode and `i` for insert mode
+- Use `h`, `j`, `k` and `l` instead of arrow keys to move the cursor
+- `w` moves to the start of next word
+- `e` moves to the end of the word
+- `b` moves to the beginning of the word  
+- You can combine movement keys with `numbers`: example => `3w`
+- You can insert text multiple times: example => `30i- ESC`
+- `f` or `F` find and move to the next occurrence of character => `fo` finds next `o`
+- `(` or `{` or `[`, use `%` to jump to the matching parenthesis or bracket.
+- To reach to the beginning of the line `0`
+- For the end of the line use `$`
+- `*` find the next occurrence of the word under cursor
+- `#` find the last previous occurrence of the word under cursor
+- `gg` takes you to the beginning of the file
+- `G` takes you to end of the file
+- `Number`+`G` takes you to the specific line
+- `/` Searching text
+- You can repeat your search for next and previous occurrence with `n` and `N`
+- `o` or `O` insert text into a new line
+- `x` and `X` will delete the character under the cursor and to the left of the cursor
+- `r` replace only one character under cursor without changing to insert mode
+- `d` is the delete command
+- `dw` deletes and cut the first word on the right side of the cursor
+- `D` delete (cut) to the end of the line
+- it also copies the content and you can paste it in other place with `p`
+- `.` to repeat the previous command
+- Beside insert and normal mode Vim has `visual` mode
+- `v` go to visual mode
+- ':w' for save
+- `:q` for quit
+- `:wq` for save and quit
+- `u` for undo
+- `ctrl + R` for redo
+- `h` moving cursor to left
+- `j ` moving cursor to down
+- `k` moving cursor to up
+- `l` moving cursor to right
+- `yy` copy the current line
+- `p` paste the content
+- `S` clear current line and enter insert mode
+- `ZZ` write and quit
+- `fx` jump to the next occurrence of character X
+- `tx` jump to before next occurrence of character X
+- `a` insert (append) after cursor
+- `A` insert (append) at the end of the line
+- `ea` insert (append) at the end of the word
+- `^` jump to the first non-blank character of the line
