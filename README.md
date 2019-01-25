@@ -2,7 +2,7 @@
 
 Daily Vim Commands
 
-- Vim modes: `insert` and `normal`
+- Vim modes: `insert` and `normal`, `visual`
 - Use `esc` for normal mode and `i` for insert mode
 - Use `h`, `j`, `k` and `l` instead of arrow keys to move the cursor
 - `w` moves to the start of next word
