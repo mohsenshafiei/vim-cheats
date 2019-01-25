@@ -31,7 +31,7 @@ Daily Vim Commands
 - `.` to repeat the previous command
 - Beside insert and normal mode Vim has `visual` mode
 - `v` go to visual mode
-- ':w' for save
+- `:w` for save
 - `:q` for quit
 - `:wq` for save and quit
 - `u` for undo
